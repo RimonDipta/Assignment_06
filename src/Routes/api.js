@@ -120,3 +120,5 @@ router.get("/title/create", createTitle);
 router.get("/title/read", readTitle);
 router.get("/title/delete", deleteTitle);
 router.get("/title/update", updateTitle);
+
+module.export = router;
